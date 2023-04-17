@@ -1,0 +1,8 @@
+
+
+What is the difference between git restore filename and git restore --staged filename?
+Ans:
+Ans: git restore filname coomand used for discard the changes and will not any changes [D[D[D[D[D[D[D[D[D[D[D[Ddo any [C[C[C changes in exciting file[D[D[D[D[D[D[D[D[D[[C[C[C[C[C[C[C[D[D[D[D[D[[C[C[Cexiting[D[D[D[D[Dis[C[C[C[C[C[C[C[C[C[C[D[D[D[D[D[D[D[D[D[Dting[C[C[C[C[C 
+
+
+  git restore --stage	filname used for remove from the stagging area
