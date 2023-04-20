@@ -1,8 +1,6 @@
 import { Fragment } from "react"
 
 export function Benfits()
-
-
 {
     return (
         <Fragment>
