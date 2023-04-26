@@ -1,0 +1,42 @@
+.div1{
+    
+    margin-top: 15%;
+    height: 200px;
+    width: 300px;
+    margin-left: 41%;
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(248, 142, 2);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+   
+}
+.input{
+    margin-bottom: 10px;
+    border: 0px;
+    height: 10px;
+    background-color:solid rgb(254, 247, 247);
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn
+{
+    border-radius: 10px;
+    height: 30px;
+    width: 30x;
+    background-color: peru;
+    color: black;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.para{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: solid black;
+    background-color: rgb(248, 142, 2);
+}
+*{
+ background-color: burlywood;
+  
+
+}
