@@ -1,0 +1,12 @@
+.container
+{
+    margin-top: 15%;
+    height: 300px;
+    width: 300px;
+    margin-left: 41%;
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(139, 139, 129);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
