@@ -1,22 +1,26 @@
-import React ,{useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
+import axios from "axios"
+import "./list.css"
 
-function FetchData()
-{
-    const [ image,setImage]=useState('')
+function FetchData() {
+    const [image, setImage] = useState('')
 
-    useEffect(()=>
-    {
-    fetch('https://dog.ceo/api/breeds/image/random')
-    .then((data)=> data.json())
-    .then ((response)=> setImage(response.message))
-    .catch((error) => console.log(error))  
+   async function Handlechange() {
+            await axios.get('https://dog.ceo/api/breeds/image/random')
+             .then((response) => setImage(response.data.message))
+            .catch((error) => console.log(error))
+    }
+
+    useEffect(() => {
+        Handlechange()
+    }, [])
 
 
-    },[])
-
-    return(
-        <img src={image} style={{height : "300px", width : "300px",
-        marginTop:"120px",borderRadius:"20px",boxShadow: " rgba(0, 0, 0, 0.56) 0px 22px 70px 4px"}}/>
+    return (
+        <div className='parent'>
+            <img  src={image} />
+            <button className='btn' onClick={Handlechange}>GET</button>
+        </div>
     )
 }
 
