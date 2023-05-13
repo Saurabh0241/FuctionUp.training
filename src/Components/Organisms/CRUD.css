@@ -1,0 +1,57 @@
+.to-do-app {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: orange;
+  }
+  
+  .taskBox {
+    background-color: rgb(58, 50, 50);
+    min-height: 300px;
+    width: 400px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 1px solid black;
+    align-items: center;
+  }
+  
+  .task-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2px;
+    justify-content: space-between;
+
+  }
+  
+  .update-delete {
+    display: flex;
+    align-items: center;
+  }
+  
+  .adding-task {
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .task-input {
+    height: 30px;
+    width: 180px;
+  }
+  
+  .tasks {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
