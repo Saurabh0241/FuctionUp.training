@@ -14,16 +14,21 @@ function Handlers()
     // setupdate([...update,val])
     // console.log(update)
     setupdate((update)=>
-    {if(val !== "")
-        {const updatedvalue=[...update,val]
-        console.log(updatedvalue)
-        setvalue("")
-        return updatedvalue}
-        else
-        {
-          alert("add user")
-        }
-    })
+    {
+      
+        
+          setupdate(()=>
+          {
+            const updatedvalue=[...update,val]
+            setvalue("")
+            return updatedvalue
+
+          })
+    
+      
+      }
+       
+    )
 }
 
 function removeuser(i)
