@@ -1,0 +1,46 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 50vh;
+    height: 30px;
+}
+
+.parent{
+    border: 1px solid black;
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.users
+{
+    font-size: 30px;
+}
+.username
+{
+    font-size: 30px;
+    font: bold;
+    color: red;
+}
+.button{
+
+    background-color: black ;
+    height: 40px;
+    width: 70px;
+    color: white;
+}
+
+.btnposition{
+  
+    left: 11%;
+    top: -45px;
+    margin: 40px;
+}
