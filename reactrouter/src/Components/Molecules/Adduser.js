@@ -15,16 +15,10 @@ function Handlers()
     // console.log(update)
     setupdate((update)=>
     {
-      
-        
-          setupdate(()=>
-          {
-            const updatedvalue=[...update,val]
-            setvalue("")
-            return updatedvalue
-
-          })
-    
+        const updatedvalue=[...update,val]
+        console.log(updatedvalue)
+        setvalue("")
+        return updatedvalue
       
       }
        
