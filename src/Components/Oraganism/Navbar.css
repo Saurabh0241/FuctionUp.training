@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+ justify-content: space-around;
+ background-color:rgb(7, 7, 148);
+ height: 60px;
+ font-size: larger;
+
+ 
+}
+.navbar a{
+    color: white;
+   
+}
+
+.AiOutline{
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    float: right;
+
+   
+}
+.navbar2 ul{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px){
+    .navbar{
+      display: none;
+    }
+    .parent{
+      height: 60px;
+      background-color:rgb(7, 7, 148);;
+    }
+    
+
+    .navbar2 ul{
+      display: flex;
+      flex-direction: column;
+      
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+      z-index: 1;
+      
+    }
+
+    .navbar2 ul a{
+      cursor: pointer;
+      color: rgb(13, 13, 13);
+      font-size: 20px;
+    
+    }
+    
+  }
+  
