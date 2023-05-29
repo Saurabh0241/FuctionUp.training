@@ -1,0 +1,44 @@
+.Moviecard{
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/591/844/1024/spider-man-spider-video-games-superhero-wallpaper-preview.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%,100%;
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: auto auto  auto;
+}
+.cards_main{
+    border: 2px solid black;
+    height: 700px;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background: white;
+}
+img{
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+   
+}
+.btn{
+    padding: 15px;
+    background-color: rgb(208, 71, 21);
+    color:  black;
+    border-radius: 10px;
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.cards_main:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 1s;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+img{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}

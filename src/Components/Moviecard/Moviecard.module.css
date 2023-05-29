@@ -1,0 +1,32 @@
+.Moviecard{
+  
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    
+}
+.cards_main{
+    border: 2px solid black;
+    height: 700px;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: white;
+}
+.cards_main:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 1s;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+img{
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+}
+.btn{
+    padding: 15px;
+    background-color: skyblue;
+    color:  black;
+    border-radius: 10px;
+}
